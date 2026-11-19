@@ -1,6 +1,11 @@
+## 0.4.9
+
+* Fixes StoreKit 2 promotional offers being ignored on iOS versions below 17.4 and macOS versions below 14.4.
+
 ## 0.4.8+1
 
 * Fixes StoreKit 2 purchase flow to send cancelled/pending/unverified results to `purchaseStream`.
+
 ## 0.4.8
 
 * Fixes an issue causing StoreKit2 purchases to be reported as `restored` and left in an

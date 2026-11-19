@@ -325,7 +325,6 @@ final class InAppPurchase2PluginTests: XCTestCase {
     await fulfillment(of: [expectation], timeout: 5)
   }
 
-  @available(iOS 17.4, macOS 14.4, *)
   func testPurchaseWithPromotionalOffer() async throws {
     let expectation = self.expectation(description: "Purchase with promotionalOffer should succeed")
 
